@@ -1,0 +1,113 @@
+.corpo {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+.cabeçalho {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  margin-top: 42px;
+  margin-bottom: 73px;
+  width: 229px;
+  height: 68px;
+  left: 517px;
+  top: 42px;
+}
+.principal {
+  display: flex;
+}
+.usuarios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.legenda {
+  margin-bottom: 61px;
+  width: 334px;
+  height: 42px;
+  font-size: 32px;
+  font-weight: 600px;
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.selecao {
+  width: 700px;
+  display: flex;
+  gap: 30px;
+}
+.avo {
+  width: 160px;
+  border: 3px solid transparent;
+  border-radius: 30px;
+}
+.avo:hover {
+  border: 3px solid white;
+}
+.usuario {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.usuario:hover img {
+  border-radius: 25px;
+  transform: scale(1.5);
+}
+
+.imgU {
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.imgU:hover {
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  border: white solid 3px;
+
+  transform: scale(1.5);
+}
+.imgU4 {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.imgU4:hover {
+  opacity: 1;
+}
+.gerenciar {
+  text-decoration: none;
+  color: white;
+  margin-top: 100px;
+  width: 118px;
+  height: 21px;
+  font-size: 16px;
+  font-family: "IBM Plex Sans";
+  border: white solid;
+  border-radius: 8px;
+  padding: 14px 44px 15px 44px;
+}
+.gerenciar:hover {
+  text-decoration: none;
+  color: black;
+  margin-top: 100px;
+  width: 118px;
+  height: 21px;
+  font-size: 16px;
+  font-family: "IBM Plex Sans";
+  border: white solid;
+  border-radius: 8px;
+  padding: 14px 44px 15px 44px;
+  background-color: white;
+}
